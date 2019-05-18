@@ -2,7 +2,6 @@ package cn.wmyskxz.blog.dao;
 
 import cn.wmyskxz.blog.entity.ArticleInfo;
 import cn.wmyskxz.blog.entity.ArticleInfoExample;
-
 import java.util.List;
 
 public interface ArticleInfoMapper {

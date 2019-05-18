@@ -21,11 +21,9 @@ public class ArticleDto {
     private Boolean isTop;          // 文章是否置顶
     private Integer traffic;        // 文章浏览量
     private Date createBy;          // 文章创建时间
-
     // tbl_article_content基础字段
     private Long articleContentId;  // ArticleContent表主键
     private String content;         // 文章内容
-
     // tbl_category_info基础字段
     private Long categoryId;        // 分类ID
     private String categoryName;    // 分类名称

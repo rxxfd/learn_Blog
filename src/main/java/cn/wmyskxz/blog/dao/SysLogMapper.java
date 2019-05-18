@@ -2,7 +2,6 @@ package cn.wmyskxz.blog.dao;
 
 import cn.wmyskxz.blog.entity.SysLog;
 import cn.wmyskxz.blog.entity.SysLogExample;
-
 import java.util.List;
 
 public interface SysLogMapper {

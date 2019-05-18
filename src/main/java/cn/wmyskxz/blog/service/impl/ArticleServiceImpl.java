@@ -22,12 +22,16 @@ public class ArticleServiceImpl implements ArticleService {
 
 	@Autowired
 	ArticleInfoMapper articleInfoMapper;
+
 	@Autowired
 	ArticlePictureMapper articlePictureMapper;
+
 	@Autowired
 	ArticleCategoryMapper articleCategoryMapper;
+
 	@Autowired
 	ArticleContentMapper articleContentMapper;
+
 	@Autowired
 	CategoryInfoMapper categoryInfoMapper;
 

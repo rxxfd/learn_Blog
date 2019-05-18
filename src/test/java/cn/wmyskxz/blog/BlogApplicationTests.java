@@ -3,7 +3,6 @@ package cn.wmyskxz.blog;
 import cn.wmyskxz.blog.controller.ForeController;
 import cn.wmyskxz.blog.entity.Comment;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import javafx.application.Application;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -134,6 +134,7 @@ public class BackController extends BaseController {
             @ApiImplicitParam(name = "id", value = "文章ID", required = true, dataType = "Long"),
             @ApiImplicitParam(name = "pictureUrl", value = "题图URL", required = true, dataType = "String")
     })
+
     @PutMapping("article/picture/{id}")
     public String updateArticlePicture(@PathVariable Long id, String pictureUrl) {
         ArticleDto articleDto = articleService.getOneById(id);

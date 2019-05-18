@@ -2,7 +2,6 @@ package cn.wmyskxz.blog.dao;
 
 import cn.wmyskxz.blog.entity.SysView;
 import cn.wmyskxz.blog.entity.SysViewExample;
-
 import java.util.List;
 
 public interface SysViewMapper {

@@ -2,15 +2,14 @@ SSM:Spring SpringMVC Mybatis
 https://baike.baidu.com/item/SSM/18801167   
 
 
-
 Spring Framework  
 中文文档: https://yuedu.baidu.com/ebook/7de16a43dcccda38376baf1ffc4ffe473368fdb4  
 英文文档: https://docs.spring.io/spring/docs/current/spring-framework-reference/  
 https://github.com/spring-projects  
 
+
 <img src="https://github.com/rxxfd/learn_Blog/blob/master/spring-framework.png" width="50" height="50" alt="mybatis" align=center>     
 Spring provides everything required beyond the Java programming language for creating enterprise applications for a wide range of scenarios and architectures.  
-
 
 
 Spring Boot  
@@ -22,17 +21,15 @@ https://github.com/spring-projects/spring-boot
 Spring Boot is a coding and configuration model for Java applications.   
 
 
-
 Mybatis  
 英文文档:http://www.mybatis.org/mybatis-3/   
 中文文档:http://www.mybatis.org/mybatis-3/zh/index.html   
 https://github.com/mybatis   
  
+ 
 <img src="https://github.com/rxxfd/learn_Blog/blob/master/mybatis.png" width="50" height="50" alt="mybatis" align=center>     
 MyBatis SQL mapper framework for Java  
 The MyBatis SQL mapper framework makes it easier to use a relational database with object-oriented applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools.  
-
-
 
 
 Maven  
@@ -42,11 +39,11 @@ https://github.com/apache/maven
 Maven is a build automation tool used primarily for Java projects.  
 
 
-
 ## MyBlog v0.1
 使用技术栈如下：
 - 前端：HTML/CSS/Bootstrap/JavaScript/Prism.js(代码高亮插件)/font-awesome(Bootstrap字体)
 - 后台：Spring/SpringBoot/MyBatis/Druid/Swagger2(RESful API文档开发)/flexmark(md2html)
+
 
 开发流程：
 - [1.SpringBoot技术栈搭建个人博客【项目准备】](https://www.jianshu.com/p/0293368fe750)

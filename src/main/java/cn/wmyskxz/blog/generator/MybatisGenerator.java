@@ -24,7 +24,7 @@ import java.util.List;
 public class MybatisGenerator {
 
     public static void main(String[] args) throws Exception {
-        String today = "2018-6-19";
+        String today = "2019-5-19";
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date now = sdf.parse(today);
@@ -39,6 +39,7 @@ public class MybatisGenerator {
 
         if (false)
             return;
+
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
         InputStream is = MybatisGenerator.class.getClassLoader().getResource("generatorConfig.xml").openStream();
@@ -50,5 +51,6 @@ public class MybatisGenerator {
         myBatisGenerator.generate(null);
 
         System.out.println("生成代码成功，只能执行一次，以后执行会覆盖掉mapper,pojo,xml 等文件上做的修改");
+
     }
 }
